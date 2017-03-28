@@ -2,6 +2,23 @@ packege matrix;
 class Hey{ // ( ???
   public static void main()
   {
-    System.out.println("Amir made this xD");
+   public static void main(String[] args) {
+		System.out.println("enter the sentence  ");
+
+int a[][]=new int [2][2];
+int a1=a[0][0]=1;
+int a2=a[0][1]=2;
+int a3=a[1][0]=3;
+int a4=a[1][1]=4;
+int sum=1;
+for (int i=1;i<=2;i++){
+	for (int j=1;j<=2;j++){
+		System.out.ptintln("the det of this  matrix is "+(a1*a2)-(a2*a3) );
+	System.out.print(sum+++"   ");}
+	System.out.println("    ");
+
+	
+
+}
   }
 }
